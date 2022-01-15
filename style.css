@@ -1,28 +1,31 @@
-
-
-body{
+body {
     overflow-x: hidden;
+    background-color: #fff;
 }
 
-.big{
+.big {
     color: lightsalmon
 }
-.flexible-container{
+
+.flexible-container {
     display: flex;
     margin-bottom: 150PX;
     align-items: center;
-      
+
 }
-.half-width{
-       width: 50%;
-       padding-left: 5%;
-       justify-content: space-around;
-       
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    justify-content: space-around;
+
 }
-.half-width img{
-       width: 100%;
+
+.half-width img {
+    width: 100%;
 }
-.link-button{
+
+.link-button {
     text-decoration: none;
     background-color: tomato;
     padding: 10px 40px;
@@ -30,41 +33,47 @@ body{
     color: white;
 
 }
-.maidul{
+
+.maidul {
     border-left: 2px solid;
-    border-image: linear-gradient(hsl(9, 100%, 64%),#ff6347);
+    border-image: linear-gradient(hsl(9, 100%, 64%), #ff6347);
     border-image-slice: 1;
     margin-left: 2px;
 }
-div h1 .dim1{
+
+div h1 .dim1 {
     text-align: center;
 }
-div .dim1 .year22{
+
+div .dim1 .year22 {
     color: tomato;
 }
-.about3{
+
+.about3 {
     width: 100%;
     display: flex;
     padding-left: 5%;
 }
-.about{
+
+.about {
     width: 25%;
     height: 50vh;
     margin-right: 50px;
     padding: 20px;
-    background-color:  #cdf1dcb6;
+    background-color: #cdf1dcb6;
     border-radius: 20px;
 }
 
-.about1{
+.about1 {
     width: 25%;
     height: 50vh;
     margin-right: 50px;
     padding: 20px;
-    background-color: #e6e6e6 ;
+    background-color: #e6e6e6;
     border-radius: 20px;
 }
-.about2{
+
+.about2 {
     width: 25%;
     height: 50vh;
     margin-right: 50px;
@@ -72,50 +81,62 @@ div .dim1 .year22{
     background-color: #fffde1;
     border-radius: 20px;
 }
-.about img{
+
+.about img {
     width: 45%;
 }
-.about1 img{
+
+.about1 img {
     width: 45%;
 }
-.about2 img{
+
+.about2 img {
     width: 45%;
 }
-.half-width{
+
+.half-width {
     width: 50%;
 }
-.half-width img{
+
+.half-width img {
     width: 50%;
 }
-.container{
+
+.container {
     display: flex;
     margin-bottom: 150px;
     padding: 5%;
-    
+
 }
-.deram-big{
+
+.deram-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 }
-.about-title .dim1{
+
+.about-title .dim1 {
     text-align: center;
     font-size: 50px;
 }
-footer{
+
+footer {
     background-color: black;
     text-align: center;
-   padding: 10px 100px;
-   
+    padding: 10px 100px;
+
 }
-footer .dim1{
+
+footer .dim1 {
     color: blanchedalmond;
-    
+
 }
-footer .dim1 .year22{
+
+footer .dim1 .year22 {
     color: blanchedalmond;
     color: tomato;
 }
-footer p{
+
+footer p {
     color: blanchedalmond;
 }
